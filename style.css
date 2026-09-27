@@ -19,3 +19,10 @@ button {
 button:hover {
 }
 /* Review this later */
+button[type="submit"] {
+    background-color: blue;
+    hover: background-color: darkblue;
+    border: 2px solid darkblue;
+    color: white;
+    transition: background-color 0.3s;
+}
